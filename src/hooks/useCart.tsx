@@ -71,7 +71,7 @@ export function CartProvider({ children }: CartProviderProps): JSX.Element {
           amount: 1,
         };
         newCart.push(newProduct);
-      }
+      }      
       
       setCart(newCart);      
     } catch {
